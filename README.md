@@ -10,7 +10,7 @@ Install with npm
 npm install --save-dev @pinon/eslint-config eslint-config-prettier eslint-plugin-prettier eslint-plugin-react @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint prettier typescript
 ```
 
-Create `.eslint.json` in your root project folder
+Create `.eslintrc.json` in your root project folder
 ```json
 {
   "extends": "@pinon/eslint-config"
