@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "incremental": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "moduleResolution": "node"
+  }
+}

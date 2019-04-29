@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-pinon-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zizhao Wang <zizhao.wang@pinon.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "eslint": ">= 5",
+    "prettier": ">= 1.17.0",
+    "typescript": ">= 3"
+  }
+}
