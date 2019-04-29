@@ -6,7 +6,7 @@ Currently still work in progress.
 
 ## How to use
 ```
-npm install --save-dev @pinon/tslint-config eslint-config-prettier eslint-plugin-prettier eslint-plugin-react @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint prettier typescript
+npm install --save-dev @pinon/eslint-config eslint-config-prettier eslint-plugin-prettier eslint-plugin-react @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint prettier typescript
 ```
 
 ## Use with vscode eslint plugin
