@@ -12,7 +12,7 @@ module.exports = {
 		ecmaFeatures: {
 			jsx: true,  // Allows for the parsing of JSX
 		},
-		project: __dirname + '/../../tsconfig.json'
+		project: __dirname + '/../../../tsconfig.json'
 	},
 	settings: {
 		react: {
