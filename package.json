@@ -1,6 +1,6 @@
 {
   "name": "@pinon/eslint-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This package provides PinOn's .eslintrc for Javascript and Typescript as an extensible shared config.",
   "main": "index.js",
   "repository": "https://github.com/PinOn-Inc/tslint-config-pinon",
