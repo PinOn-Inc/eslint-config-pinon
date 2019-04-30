@@ -48,21 +48,24 @@ module.exports = {
 		'default-case': 'error',
 		'use-isnan': 'error',
 		'prefer-template': "error",
-		'no-useless-concat': "error",
+    'no-useless-concat': "error",
+    "camelcase": "warn",
 		
-		'react/jsx-curly-spacing': ['error', { 'when': 'never' }],
-		'react/jsx-equals-spacing': ['error', 'never'],
+		'react/jsx-curly-spacing': 'off',
+		'react/jsx-equals-spacing': 'off',
+		'react/self-closing-comp': 'off',
+    "react/prop-types": "off",
+		"react/no-unescaped-entities": "off",
 		'react/jsx-key': ['error'],
 		'react/jsx-no-bind': ['warn', { 'allowArrowFunctions': true }],
-		'react/self-closing-comp': ['error'],
 		'react/no-access-state-in-setstate': ['warn'],
-		'react/no-array-index-key': 'warn',
+    'react/no-array-index-key': 'warn',
   },
   "overrides": [
     {
       "files": ["**/*.ts", "**/*.tsx"],
       "rules": {
-        '@typescript-eslint/camelcase': 'warn',
+        '@typescript-eslint/camelcase': 'off',
         '@typescript-eslint/no-non-null-assertion': 'warn',
         '@typescript-eslint/no-object-literal-type-assertion': 'off',
         '@typescript-eslint/adjacent-overload-signatures': 'error',
@@ -84,7 +87,6 @@ module.exports = {
         '@typescript-eslint/no-use-before-define': 'error',
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/no-var-requires': 'error',
-        '@typescript-eslint/prefer-for-of': 'warn',
         '@typescript-eslint/prefer-function-type': 'error',
         '@typescript-eslint/promise-function-async': 'off',
         '@typescript-eslint/restrict-plus-operands': 'error',
@@ -100,10 +102,10 @@ module.exports = {
               'private-instance-method',
               'static-method',
               'public-instance-method',
-            ]
-          }
+            ],
+          },
         ],
-      }
-    }
-  ]
+      },
+    },
+  ],
 }
