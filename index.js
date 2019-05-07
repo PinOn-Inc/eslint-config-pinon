@@ -66,6 +66,7 @@ module.exports = {
       "files": ["**/*.ts", "**/*.tsx"],
       "rules": {
         '@typescript-eslint/camelcase': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-object-literal-type-assertion': 'off',
         '@typescript-eslint/no-empty-interface': 'off',
         '@typescript-eslint/promise-function-async': 'off',
