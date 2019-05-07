@@ -65,8 +65,10 @@ module.exports = {
     {
       "files": ["**/*.ts", "**/*.tsx"],
       "rules": {
+        'no-unused-vars': ['off', { 'varsIgnorePattern': '^_' }],
+
         '@typescript-eslint/camelcase': 'off',
-        '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': ['warn', { 'varsIgnorePattern': '^_' }],
         '@typescript-eslint/no-object-literal-type-assertion': 'off',
         '@typescript-eslint/no-empty-interface': 'off',
         '@typescript-eslint/promise-function-async': 'off',
