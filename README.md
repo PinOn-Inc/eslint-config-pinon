@@ -22,9 +22,6 @@ Add to your VSCode's `setting.json`
 
 ```json
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true
-  },
   "eslint.autoFixOnSave": true,
   "eslint.provideLintTask": true,
   "eslint.validate": [
